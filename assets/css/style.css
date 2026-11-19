@@ -1,0 +1,9 @@
+:root{--navy:#0b1b3b;--violet:#7c5cff;--cyan:#22d3ee}
+body{font-family:Inter,system-ui,-apple-system,Segoe UI,Arial,sans-serif;background:#f6f8fc;color:#1b2540}
+.navbar{background:var(--navy)}.btn-accent{background:var(--violet);color:#fff;border:0}.btn-accent:hover{background:#6a49f0;color:#fff}
+.hero{background:linear-gradient(135deg,var(--navy),#2a1f6b 70%,#0e7490);color:#fff;padding:90px 0}
+.hero h1{font-weight:800;font-size:clamp(2rem,5vw,3.4rem)}.card{border:0;border-radius:16px;box-shadow:0 4px 18px rgba(11,27,59,.08)}
+.ev{transition:transform .2s,box-shadow .2s;overflow:hidden}.ev:hover{transform:translateY(-4px);box-shadow:0 10px 26px rgba(11,27,59,.15)}
+.ev img{height:170px;object-fit:cover}.badge-cat{background:rgba(124,92,255,.12);color:var(--violet)}
+.stat{font-size:2rem;font-weight:800;color:var(--violet)}.foot{background:var(--navy);color:#cbd5e1}.foot a{color:var(--cyan);text-decoration:none}
+.cta{background:linear-gradient(135deg,var(--violet),var(--cyan));color:#fff;border-radius:20px}
