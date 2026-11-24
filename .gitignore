@@ -1,3 +1,23 @@
+# Application secrets
 .env
+.env.*
+
+# Allow example environment file
+!.env.example
+
+# User uploads
 uploads/*
 !uploads/.gitkeep
+
+# Terraform
+**/.terraform/
+**/*.tfstate
+**/*.tfstate.*
+**/*.tfplan
+**/*.plan
+**/*.tfvars
+**/*.tfvars.json
+
+# AWS credentials
+.aws/
+credentials
